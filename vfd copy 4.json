@@ -1,0 +1,340 @@
+{
+  "categories": [
+{"id": 1,"title": "Межкомнатные двери", "parent_id": 0, "order": 41 },
+{"id": 21, "title": "Порталы", "parent_id": 0, "order": 30 },
+{"id": 22, "title": "Плинтус", "parent_id": 0, "order": 29 },
+{"id": 29, "title": "Фурнитура", "parent_id": 0, "order": 23 },
+{"id": 76, "title": "В помощь продавцам", "parent_id": 0, "order": 22 },
+{"id": 86, "title": "тестовая категория", "parent_id": 0, "order": 86 },
+{"id": 2, "title": "Эмаль", "parent_id": 1, "order": 4 },
+{"id": 4, "title": "Эко Шпон", "parent_id": 1, "order": 6 },
+{"id": 6, "title": "Шпон —распродажа остатков", "parent_id": 1, "order": 2 },
+{"id": 87, "title": "Скрытые двери Invisible", "parent_id": 1, "order": 87 },
+{"id": 8, "title": "Серия Winter", "parent_id": 2, "order": 9 },
+{"id": 9, "title": "Серия Stockholm", "parent_id": 2, "order": 58 },
+{"id": 58, "title": "Серия Classic Luxe", "parent_id": 2, "order": 8 },
+{"id": 92, "title": "Серия Premium", "parent_id": 2, "order": 92 },
+{"id": 93, "title": "Серия Skinel", "parent_id": 2, "order": 93 },
+{"id": 13, "title": "Серия Atum", "parent_id": 4, "order": 37 },
+{"id": 17, "title": "Серия Atum Pro", "parent_id": 4, "order": 27 },
+{"id": 18, "title": "Серия Urban", "parent_id": 4, "order": 18 },
+{"id": 19, "title": "Серия Emalex", "parent_id": 4, "order": 20 },
+{"id": 37, "title": "Серия Classic Art", "parent_id": 4, "order": 15 },
+{"id": 85, "title": "Серия INVISIBLE", "parent_id": 4, "order": 85 },
+{"id": 88, "title": "Серия Elegant", "parent_id": 4, "order": 88 },
+{"id": 89, "title": "Серия Solo", "parent_id": 4, "order": 89 },
+{"id": 90, "title": "Серия Avant", "parent_id": 4, "order": 90 },
+{"id": 91, "title": "Серия Antique", "parent_id": 4, "order": 91 },
+{"id": 7, "title": "Серия Standart Распродажа складских остатков", "parent_id": 6, "order": 7 },
+{"id": 23, "title": "Эко Шпон", "parent_id": 21, "order": 26 },
+{"id": 24, "title": "3D Eco Craft", "parent_id": 21, "order": 25 },
+{"id": 25, "title": "Эмаль", "parent_id": 21, "order": 24 },
+{"id": 27, "title": "Серия Stockholm", "parent_id": 22, "order": 28 },
+{"id": 28, "title": "Серия Universal", "parent_id": 22, "order": 29 },
+{"id": 31, "title": "Эко Шпон", "parent_id": 28, "order": 33 },
+{"id": 32, "title": "Эмаль", "parent_id": 28, "order": 32 },
+{"id": 30, "title": "Дверные ручки", "parent_id": 29, "order": 57 },
+{"id": 48, "title": "Ограничители", "parent_id": 29, "order": 49 },
+{"id": 49, "title": "Цилиндры", "parent_id": 29, "order": 53 },
+{"id": 52, "title": "Петли", "parent_id": 29, "order": 52 },
+{"id": 53, "title": "Для раздвижных дверей", "parent_id": 29, "order": 48 },
+{"id": 54, "title": "Накладки", "parent_id": 29, "order": 56 },
+{"id": 55, "title": "Завертки", "parent_id": 29, "order": 55 },
+{"id": 56, "title": "Замки и защелки", "parent_id": 29, "order": 54 },
+{"id": 43, "title": "Ручки (круглая)", "parent_id": 30, "order": 47 },
+{"id": 44, "title": "Ручки (квадратная)", "parent_id": 30, "order": 46 },
+{"id": 45, "title": "Ручки (Classic)", "parent_id": 30, "order": 45 },
+{"id": 74, "title": "Упорные", "parent_id": 48, "order": 75 },
+{"id": 75, "title": "Магнитные", "parent_id": 48, "order": 74 },
+{"id": 50, "title": "Ключ/ключ", "parent_id": 49, "order": 51 },
+{"id": 51, "title": "Ключ/фиксатор", "parent_id": 49, "order": 50 },
+{"id": 61, "title": "Накладки (круглая)", "parent_id": 54, "order": 63 },
+{"id": 62, "title": "Накладки (квадратная)", "parent_id": 54, "order": 62 },
+{"id": 63, "title": "Накладки (Classic)", "parent_id": 54, "order": 61 },
+{"id": 64, "title": "Завертки (круглая)", "parent_id": 55, "order": 66 },
+{"id": 65, "title": "Завертки (квадратная)", "parent_id": 55, "order": 65 },
+{"id": 66, "title": "Завертки (Classic)", "parent_id": 55, "order": 64 },
+{"id": 67, "title": "Торцевые шпингалеты", "parent_id": 56, "order": 67 },
+{"id": 70, "title": "Стальной язычок", "parent_id": 56, "order": 72 },
+{"id": 71, "title": "Бесшумные", "parent_id": 56, "order": 71 },
+{"id": 72, "title": "Магнитные", "parent_id": 56, "order": 70 },
+{"id": 77, "title": "Каталоги и образцы материалов", "parent_id": 76, "order": 83 },
+{"id": 78, "title": "Экспозиторы", "parent_id": 76, "order": 82 },
+{"id": 79, "title": "Наклейки на пол", "parent_id": 76, "order": 81 },
+{"id": 80, "title": "Таблички и заглушки", "parent_id": 76, "order": 80 },
+{"id": 81, "title": "Подарки для посетителей", "parent_id": 76, "order": 79 },
+{"id": 82, "title": "Фирменные элементы и атрибутика", "parent_id": 76, "order": 78 },
+{"id": 83, "title": "Реставрационные материалы", "parent_id": 76, "order": 77
+    }
+  ],
+  "colors": [
+{"id": 2, "title": "Polar", "picture": "https://vfd.ru/uploads/catalog/colors/5d5bb046bb006-polar.jpg" },
+{"id": 3, "title": "Bianco S", "picture": "https://vfd.ru/uploads/catalog/colors/5d5bb07b5550f-bianco.jpg" },
+{"id": 4, "title": "Bianco", "picture": "https://vfd.ru/uploads/catalog/colors/5d5bb0a4ef241-bianco-atum.jpg" },
+{"id": 5, "title": "Brown Alder", "picture": "https://vfd.ru/uploads/catalog/colors/5d5bb0c9c1f25-brown-alder.jpg" },
+{"id": 6, "title": "Cappuccino", "picture": "https://vfd.ru/uploads/catalog/colors/5d5bb0e537b12-cappuccino-atum.jpg" },
+{"id": 125, "title": "Milky White", "picture": "https://vfd.ru/uploads/catalog/colors/62750fdfdf3b9-milky-white.png"
+    }
+  ],
+  "insertions": [
+{"id": 3, "title": "White Cloud", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddbc2f11494a-white-cloud.jpg" },
+{"id": 4, "title": "Black Gloss", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddbc2fda2dbc-black-gloss.jpg" },
+{"id": 5, "title": "White Gloss", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddfd23e2068b-white-gloss.jpg" },
+{"id": 6, "title": "Pearl Gloss", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/" },
+{"id": 7, "title": "Gray Gloss", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/" },
+{"id": 8, "title": "Black Moon", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddfd71a491a5-black-moon.jpg" },
+{"id": 9, "title": "Flower Moon", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddfd72266f57-flower-moon.jpg" },
+{"id": 10, "title": "White Moon", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddfd72a442bc-white-moon.jpg" },
+{"id": 11, "title": "White Crystal Moon", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/" },
+{"id": 12, "title": "Art Cloud", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddfd733ea59e-art-cloud.jpg" },
+{"id": 13, "title": "Crystal Cloud L", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddfd1d9ef0d5-crystal-cloud.png" },
+{"id": 14, "title": "White Art", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa0914466d3-white-art.jpg" },
+{"id": 15, "title": "Bronze Art", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddcb9ca21481-bronze-art.jpg" },
+{"id": 16, "title": "Crystal Cloud", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/6320621a2bb04-crystal-cloud.PNG" },
+{"id": 17, "title": "Print Art", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddcb9de371fb-print-art.jpg" },
+{"id": 18, "title": "Simple Art", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa08f3dfcb7-simple-art.jpg" },
+{"id": 19, "title": "Reflex", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddbc47a11ac5-reflex.jpg" },
+{"id": 20, "title": "Slate", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5ddbc408ad261-slate.jpg" },
+{"id": 21, "title": "Silver Mould | SE", "type": "Молдинг", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa088e97d63-silver-mould-se.jpg" },
+{"id": 22, "title": "Black Mould | BE", "type": "Молдинг", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa0886c21f7-black-mould-be.jpg" },
+{"id": 23, "title": "Candy Gloss", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa03a2f0de1-candy-gloss.jpg" },
+{"id": 24, "title": "Honey Gloss", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa0824ac7cd-honey-gloss.jpg" },
+{"id": 25, "title": "Steal Gloss", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa038196065-steal-gloss.jpg" },
+{"id": 26, "title": "Black Reflex", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa02e87da96-black-reflex.jpg" },
+{"id": 27, "title": "Print Cloud", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa022c0e26e-print-cloud.jpg" },
+{"id": 29, "title": "Art Cloud B", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5dfa01f3d12d9-art-cloud-b.png" },
+{"id": 30, "title": "Black Gloss BM", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5e2a90f8d2cd0-black-gloss-bm.jpg" },
+{"id": 31, "title": "Black Gloss SM", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5e2a90f27a86c-black-gloss-sm.jpg" },
+{"id": 32, "title": "White Cloud BM", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5e2a90ec0c7fb-white-cloud-bm.jpg" },
+{"id": 33, "title": "White Cloud SM", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/5e2a90e49ca63-white-cloud-sm.jpg" },
+{"id": 34, "title": "BM", "type": "Молдинг", "picture": "https://vfd.ru/uploads/catalog/insertions/5e2a90dc0689b-bm.jpg" },
+{"id": 35, "title": "SM", "type": "Молдинг", "picture": "https://vfd.ru/uploads/catalog/insertions/5e2a90d4be779-sm.jpg" },
+{"id": 36, "title": "Art cloud cross", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/6316ed2f763c8-art-cloud-cross.PNG" },
+{"id": 37, "title": "Art cloud line", "type": "Стекло", "picture": "https://vfd.ru/uploads/catalog/insertions/6316ed6b71cf6-art-cloud-line.PNG" },
+{"id": 38, "title": "Red oak", "type": null, "picture": "https://vfd.ru/uploads/catalog/insertions/6390368bbb75f-red-oak.PNG" },
+{"id": 39, "title": "Stone oak", "type": null, "picture": "https://vfd.ru/uploads/catalog/insertions/63908af862228-stone-oak.PNG"
+    }
+  ],
+  "sets": [
+{"id": 21, "title": "Макоре Classico Распашные 1", "type": "Распашные", "quantity": 1, "accessories": [
+  {"set_id": 21, "accessories_id": 2418, "quantity": 0 },
+{"set_id": 21, "accessories_id": 2409, "quantity": 0 },
+{"set_id": 21, "accessories_id": 2408, "quantity": 0 },
+{"set_id": 21, "accessories_id": 2407, "quantity": 0 },
+{"set_id": 21, "accessories_id": 2395, "quantity": 0 },
+{"set_id": 21, "accessories_id": 2396, "quantity": 2.5
+        }
+      ] },
+{"id": 22, "title": "Макоре Classico Распашные 2", "type": "Распашные", "quantity": 2, "accessories": [
+  {"set_id": 22, "accessories_id": 2418, "quantity": 0 },
+{"set_id": 22, "accessories_id": 2409, "quantity": 0 },
+{"set_id": 22, "accessories_id": 2408, "quantity": 0 },
+{"set_id": 22, "accessories_id": 2407, "quantity": 0 },
+{"set_id": 22, "accessories_id": 2395, "quantity": 0 },
+{"set_id": 22, "accessories_id": 2396, "quantity": 3
+        }
+      ] },
+{"id": 41, "title": "Венге Шпон Modern Распашные 1", "type": "Распашные", "quantity": 1, "accessories": [
+  {"set_id": 41, "accessories_id": 2417, "quantity": 5 },
+{"set_id": 41, "accessories_id": 2406, "quantity": 0 },
+{"set_id": 41, "accessories_id": 2405, "quantity": 0 },
+{"set_id": 41, "accessories_id": 2404, "quantity": 0 },
+{"set_id": 41, "accessories_id": 2394, "quantity": 2.5 },
+{"set_id": 41, "accessories_id": 2393, "quantity": 0
+        }
+      ] },
+{"id": 42, "title": "Венге Шпон Modern Распашные 2", "type": "Распашные", "quantity": 2, "accessories": [
+  {"set_id": 42, "accessories_id": 2417, "quantity": 6 },
+{"set_id": 42, "accessories_id": 2406, "quantity": 0 },
+{"set_id": 42, "accessories_id": 2405, "quantity": 0 },
+{"set_id": 42, "accessories_id": 2404, "quantity": 0 },
+{"set_id": 42, "accessories_id": 2394, "quantity": 3 },
+{"set_id": 42, "accessories_id": 2393, "quantity": 0
+        }
+      ] },
+{"id": 587, "title": "Emalex Steel Modern Раздвижные 1", "type": "Раздвижные", "quantity": 1, "accessories": [
+  {"set_id": 587, "accessories_id": 2472, "quantity": 1 },
+{"set_id": 587, "accessories_id": 2471, "quantity": 1 },
+{"set_id": 587, "accessories_id": 2469, "quantity": 1 },
+{"set_id": 587, "accessories_id": 2468, "quantity": 0 },
+{"set_id": 587, "accessories_id": 2467, "quantity": 0 },
+{"set_id": 587, "accessories_id": 2466, "quantity": 1 },
+{"set_id": 587, "accessories_id": 3288, "quantity": 0 },
+{"set_id": 587, "accessories_id": 3291, "quantity": 0 },
+{"set_id": 587, "accessories_id": 3290, "quantity": 0 },
+{"set_id": 587, "accessories_id": 3289, "quantity": 0
+        }
+      ]
+    }
+  ],
+  "accessories": [
+{"id": 366721, "title": "Коробка с упл. Bianco (телескоп.) 2100х80х28", "price": "581.00" },
+{"id": 366720, "title": "Коробка с упл. Wenge (телескоп.) 2100х80х28", "price": "581.00" },
+{"id": 366722, "title": "Коробка с упл. Cappuccino (телескоп.) 2100х80х28", "price": "581.00" },
+{"id": 366723, "title": "Коробка с упл. Grey Wood (телескоп.) 2100х80х28", "price": "581.00" },
+{"id": 360091, "title": "Добор Bianco (телескоп.) 2130x100x10", "price": "385.00" },
+{"id": 360063, "title": "Добор Bianco (телескоп.) 2130x150x10", "price": "462.00" },
+{"id": 360095, "title": "Добор Bianco (телескоп.) 2130x200x10", "price": "546.00" },
+{"id": 360092, "title": "Добор Wenge (телескоп.) 2130x100x10", "price": "385.00" },
+{"id": 360065, "title": "Добор Wenge (телескоп.) 2130x150x10", "price": "462.00" },
+{"id": 360096, "title": "Добор Wenge (телескоп.) 2130x200x10", "price": "546.00" },
+{"id": 696940, "title": "Коробка с упл. Эмаль Ivory (телескоп.) 2100х80х32", "price": "1005.00" },
+{"id": 696954, "title": "Коробка с упл. Эмаль Cotton (телескоп.) 2100х80х32", "price": "1005.00"
+    }
+  ],
+  "features": [
+{"id": 1, "title": "Стиль", "filter": 1, "hide": 0, "component": 0, "order": 1 },
+{"id": 4, "title": "Материалы", "filter": 1, "hide": 0, "component": 0, "order": 2 },
+{"id": 2, "title": "Тип двери", "filter": 1, "hide": 0, "component": 0, "order": 3 },
+{"id": 5, "title": "Назначение", "filter": 0, "hide": 0, "component": 0, "order": 4 },
+{"id": 6, "title": "Системы открывания", "filter": 0, "hide": 0, "component": 0, "order": 5 },
+{"id": 15, "title": "Толщина", "filter": 0, "hide": 0, "component": 0, "order": 6 },
+{"id": 91, "title": "Дополнительная теплоизоляция", "filter": 0, "hide": 0, "component": 0, "order": 91
+    }
+  ],
+  "featuresValues": [
+{"id": 1, "value": "Модерн", "feature_id": 1 },
+{"id": 2, "value": "Классика", "feature_id": 1 },
+{"id": 3, "value": "Глухая", "feature_id": 2 },
+{"id": 4, "value": "Остекленная", "feature_id": 2 },
+{"id": 9, "value": "Белые", "feature_id": 3 },
+{"id": 10, "value": "Светлые", "feature_id": 3 },
+{"id": 11, "value": "Темные", "feature_id": 3 },
+{"id": 12, "value": "Яркие цвета", "feature_id": 3 },
+{"id": 13, "value": "Экошпон", "feature_id": 4 },
+{"id": 14, "value": "3D Eco Craft", "feature_id": 4 },
+{"id": 15, "value": "Эмаль", "feature_id": 4 },
+{"id": 16, "value": "Шпонированные", "feature_id": 4 },
+{"id": 18, "value": "Зеркало", "feature_id": 2 },
+{"id": 19, "value": "Грифель", "feature_id": 2 },
+{"id": 20, "value": "Молдинг", "feature_id": 2 },
+{"id": 23, "value": "White Cloud - сатинато, белое сатинированное.", "feature_id": 9 },
+{"id": 24, "value": "White Moon - триплекс белый (безопасное стекло).", "feature_id": 9 },
+{"id": 25, "value": "Композитный мебельный щит на основе высококачественного соснового бруса и MDF.", "feature_id": 7 },
+{"id": 26, "value": "Эко Шпон - структурный антивандальный материал с защитным лаком (Германия).", "feature_id": 8 },
+{"id": 566, "value": "Нет", "feature_id": 90 },
+{"id": 567, "value": "Да", "feature_id": 91 },
+{"id": 568, "value": "Нет", "feature_id": 91
+    }
+  ],
+  "products": [
+{"id": 1092, "title": "Портал", "slug": "portal-truffo", "category_id": 24, "color_id": 29, "insertion_id": null, "price": "1900.00", "order": 1046, "url": "https://vfd.ru/catalog/portaly/3d-eco-craft/portal-truffo", "images": [
+  {"original": "https://vfd.ru/uploads/catalog/product/5db080467c39c-portal.jpg", "medium": "https://vfd.ru/uploads/catalog/product/medium/5db080467c39c-portal.jpg", "thumbnail": "https://vfd.ru/uploads/catalog/product/small/5db080467c39c-portal.jpg"
+        }
+      ], "sets": [
+  {"product_id": 1092, "set_id": 511
+        }
+      ], "features": [
+  {"product_id": 1092, "feature_id": 3, "value_id": 11 },
+{"product_id": 1092, "feature_id": 10, "value_id": 180 },
+{"product_id": 1092, "feature_id": 12, "value_id": 181 },
+{"product_id": 1092, "feature_id": 17, "value_id": 41 },
+{"product_id": 1092, "feature_id": 13, "value_id": 182 },
+{"product_id": 1092, "feature_id": 21, "value_id": 186 },
+{"product_id": 1092, "feature_id": 20, "value_id": 185 },
+{"product_id": 1092, "feature_id": 19, "value_id": 184 },
+{"product_id": 1092, "feature_id": 4, "value_id": 14 },
+{"product_id": 1092, "feature_id": 1, "value_id": 1
+        }
+      ], "sizes": [], "full_title": "Портал Truffo" },
+{"id": 1057, "title": "Портал", "slug": "portal-cinnamon", "category_id": 24, "color_id": 9, "insertion_id": null, "price": "1900.00", "order": 1052, "url": "https://vfd.ru/catalog/portaly/3d-eco-craft/portal-cinnamon", "images": [
+  {"original": "https://vfd.ru/uploads/catalog/product/5db068da64d17-portal.jpg", "medium": "https://vfd.ru/uploads/catalog/product/medium/5db068da64d17-portal.jpg", "thumbnail": "https://vfd.ru/uploads/catalog/product/small/5db068da64d17-portal.jpg"
+        }
+      ], "sets": [
+  {"product_id": 1057, "set_id": 477
+        }
+      ], "features": [
+  {"product_id": 1057, "feature_id": 3, "value_id": 11 },
+{"product_id": 1057, "feature_id": 10, "value_id": 180 },
+{"product_id": 1057, "feature_id": 12, "value_id": 181 },
+{"product_id": 1057, "feature_id": 17, "value_id": 41 },
+{"product_id": 1057, "feature_id": 13, "value_id": 182 },
+{"product_id": 1057, "feature_id": 21, "value_id": 186 },
+{"product_id": 1057, "feature_id": 20, "value_id": 185 },
+{"product_id": 1057, "feature_id": 19, "value_id": 184 },
+{"product_id": 1057, "feature_id": 4, "value_id": 14 },
+{"product_id": 1057, "feature_id": 1, "value_id": 1
+        }
+      ], "sizes": [], "full_title": "Портал Cinnamon" },
+{"id": 1076, "title": "Портал", "slug": "portal-mouse", "category_id": 24, "color_id": 26, "insertion_id": null, "price": "1900.00", "order": 1053, "url": "https://vfd.ru/catalog/portaly/3d-eco-craft/portal-mouse", "images": [
+  {"original": "https://vfd.ru/uploads/catalog/product/5db07afb7e51f-portal.jpg", "medium": "https://vfd.ru/uploads/catalog/product/medium/5db07afb7e51f-portal.jpg", "thumbnail": "https://vfd.ru/uploads/catalog/product/small/5db07afb7e51f-portal.jpg"
+        }
+      ], "sets": [
+  {"product_id": 1076, "set_id": 495
+        }
+      ], "features": [
+  {"product_id": 1076, "feature_id": 3, "value_id": 11 },
+{"product_id": 1076, "feature_id": 10, "value_id": 180 },
+{"product_id": 1076, "feature_id": 12, "value_id": 181 },
+{"product_id": 1076, "feature_id": 17, "value_id": 41 },
+{"product_id": 1076, "feature_id": 13, "value_id": 182 },
+{"product_id": 1076, "feature_id": 21, "value_id": 186 },
+{"product_id": 1076, "feature_id": 20, "value_id": 185 },
+{"product_id": 1076, "feature_id": 19, "value_id": 184 },
+{"product_id": 1076, "feature_id": 4, "value_id": 14 },
+{"product_id": 1076, "feature_id": 1, "value_id": 1
+        }
+      ], "sizes": [], "full_title": "Портал Mouse" },
+{"id": 137, "title": "Atum 7", "slug": "atum-7-cappuccino-white-cloud", "category_id": 13, "color_id": 6, "insertion_id": 3, "price": "5490.00", "order": 4358, "url": "https://vfd.ru/catalog/interior-doors/eko-shpon/seriya-atum/atum-7-cappuccino-white-cloud", "images": [
+  {"original": "https://vfd.ru/uploads/catalog/product/5fe354e81aaaa-atum-7.png", "medium": "https://vfd.ru/uploads/catalog/product/medium/5fe354e81aaaa-atum-7.png", "thumbnail": "https://vfd.ru/uploads/catalog/product/small/5fe354e81aaaa-atum-7.png"
+        }
+      ], "sets": [
+  {"product_id": 137, "set_id": 99 },
+{"product_id": 137, "set_id": 100 },
+{"product_id": 137, "set_id": 101 },
+{"product_id": 137, "set_id": 102
+        }
+      ], "features": [
+  {"product_id": 137, "feature_id": 3, "value_id": 10 },
+{"product_id": 137, "feature_id": 10, "value_id": 313 },
+{"product_id": 137, "feature_id": 12, "value_id": 124 },
+{"product_id": 137, "feature_id": 17, "value_id": 125 },
+{"product_id": 137, "feature_id": 13, "value_id": 31 },
+{"product_id": 137, "feature_id": 14, "value_id": 32 },
+{"product_id": 137, "feature_id": 18, "value_id": null },
+{"product_id": 137, "feature_id": 16, "value_id": 121 },
+{"product_id": 137, "feature_id": 15, "value_id": 463 },
+{"product_id": 137, "feature_id": 2, "value_id": 4 },
+{"product_id": 137, "feature_id": 4, "value_id": 13 },
+{"product_id": 137, "feature_id": 1, "value_id": 1
+        }
+      ], "sizes": [
+  {"title": "600*2000", "id": 271, "product_id": 137, "size_id": 5, "code": "Ц0000022615", "order": 271, "price": "4608.00" },
+{"title": "700*2000", "id": 272, "product_id": 137, "size_id": 6, "code": "Ц0000022616", "order": 272, "price": "4608.00" },
+{"title": "800*2000", "id": 273, "product_id": 137, "size_id": 7, "code": "Ц0000022617", "order": 273, "price": "4608.00" },
+{"title": "900*2000", "id": 274, "product_id": 137, "size_id": 8, "code": "Ц0000022618", "order": 274, "price": "4608.00"
+        }
+      ], "full_title": "Atum 7 Cappuccino White Cloud" },
+{"id": 1483, "title": "Atum 5", "slug": "atum-5-cappuccino-white-cloud", "category_id": 13, "color_id": 6, "insertion_id": 3, "price": "5850.00", "order": 4359, "url": "https://vfd.ru/catalog/interior-doors/eko-shpon/seriya-atum/atum-5-cappuccino-white-cloud", "images": [
+  {"original": "https://vfd.ru/uploads/catalog/product/5fe354c23174a-atum-5.png", "medium": "https://vfd.ru/uploads/catalog/product/medium/5fe354c23174a-atum-5.png", "thumbnail": "https://vfd.ru/uploads/catalog/product/small/5fe354c23174a-atum-5.png"
+        }
+      ], "sets": [
+  {"product_id": 1483, "set_id": 99 },
+{"product_id": 1483, "set_id": 100 },
+{"product_id": 1483, "set_id": 101 },
+{"product_id": 1483, "set_id": 102
+        }
+      ], "features": [
+  {"product_id": 1483, "feature_id": 3, "value_id": 10 },
+{"product_id": 1483, "feature_id": 10, "value_id": 313 },
+{"product_id": 1483, "feature_id": 12, "value_id": 124 },
+{"product_id": 1483, "feature_id": 17, "value_id": 125 },
+{"product_id": 1483, "feature_id": 13, "value_id": 31 },
+{"product_id": 1483, "feature_id": 14, "value_id": 32 },
+{"product_id": 1483, "feature_id": 18, "value_id": null },
+{"product_id": 1483, "feature_id": 16, "value_id": 121 },
+{"product_id": 1483, "feature_id": 15, "value_id": 463 },
+{"product_id": 1483, "feature_id": 2, "value_id": 4 },
+{"product_id": 1483, "feature_id": 4, "value_id": 13 },
+{"product_id": 1483, "feature_id": 1, "value_id": 1
+        }
+      ], "sizes": [
+  {"title": "600*2000", "id": 4534, "product_id": 1483, "size_id": 5, "code": "Ц0000074272", "order": 4534, "price": "4608.00" },
+{"title": "700*2000", "id": 4535, "product_id": 1483, "size_id": 6, "code": "Ц0000074273", "order": 4535, "price": "4608.00" },
+{"title": "800*2000", "id": 4536, "product_id": 1483, "size_id": 7, "code": "Ц0000074274", "order": 4536, "price": "4608.00"},
+  {"title": "900*2000", "id": 4537, "product_id": 1483, "size_id": 8, "code": "Ц0000074275", "order": 4537, "price": "4608.00"
+        }
+      ], "full_title": "Atum 5 Cappuccino White Cloud"
+    }
+  ]
+}

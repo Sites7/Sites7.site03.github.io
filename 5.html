@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <!-- CSS стили для фильтра по цене -->
+<style>
+    .filter-group {
+        margin-bottom: 15px;
+    }
+
+    .filter-group label {
+        display: block;
+        margin-bottom: 8px;
+        color: #666;
+    }
+
+    .price-inputs {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 5px;
+    }
+
+    .price-inputs input {
+        width: calc(50% - 5px);
+        background-color: #ffffff;
+        color: #000000;
+        border: 2px solid #02a6ec;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .price-inputs input::placeholder {
+        color: #999;
+    }
+
+    .ui-widget-content {
+        border: 1px solid #bdc3c7;
+        background: #e1e1e1;
+        color: #222222;
+        margin-top: 4px;
+    }
+
+    .ui-slider .ui-slider-handle {
+        cursor: default;
+        width: 2em;
+        height: 1.2em;
+        background: #d8ec02;
+        color: #000000;
+        text-align: center;
+        margin-left: -1em;
+    }
+
+    #slider {
+        margin: 10px 8px 20px 8px;
+        width: calc(100% - 16px);
+    }
+</style>
+</head>
+<body>
+    <!-- HTML часть фильтра по цене -->
+<div class="filter-group">
+    <label>Цена</label>
+    <div class="price-inputs">
+        <input type="number" id="minPrice" placeholder="От">
+        <input type="number" id="maxPrice" placeholder="До">
+    </div>
+    <div id="slider"></div>
+</div>
+
+<!-- JavaScript для работы фильтра по цене -->
+<script>
+    // Объявление глобальных переменных для фильтрации
+    let minPriceFilter = 5000;
+    let maxPriceFilter = 150000;
+    let currentPage = 1;
+    let products = []; // Заглушка для массива продуктов (должен быть определен где-то в вашем коде)
+    let categoryMatch = true; // Заглушка для других переменных фильтрации
+    let searchMatch = true;
+    let stockMatch = true;
+
+    // Инициализация слайдера jQuery UI
+    $(function() {
+        $("#slider").slider({
+            range: true,
+            min: 0,
+            max: 150000,
+            values: [minPriceFilter, maxPriceFilter],
+            slide: function(event, ui) {
+                $("#minPrice").val(ui.values[0]);
+                $("#maxPrice").val(ui.values[1]);
+                // Обновление фильтров и рендеринг продуктов при изменении слайдера
+                minPriceFilter = ui.values[0];
+                maxPriceFilter = ui.values[1];
+                currentPage = 1;
+                renderProducts();
+            }
+        });
+        // Установка начальных значений
+        $("#minPrice").val($("#slider").slider("values", 0));
+        $("#maxPrice").val($("#slider").slider("values", 1));
+    });
+
+    // Обновление слайдера при изменении полей ввода
+    document.getElementById('minPrice').addEventListener('input', function(e) {
+        const value = Number(e.target.value) || 0;
+        // Проверка, чтобы минимальная цена не превышала максимальную
+        if (value > $("#slider").slider("values", 1)) {
+            return;
+        }
+        $("#slider").slider("values", 0, value);
+        minPriceFilter = value;
+        currentPage = 1;
+        renderProducts();
+    });
+
+    document.getElementById('maxPrice').addEventListener('input', function(e) {
+        const value = Number(e.target.value) || 0;
+        // Проверка, чтобы максимальная цена не была меньше минимальной
+        if (value < $("#slider").slider("values", 0)) {
+            return;
+        }
+        $("#slider").slider("values", 1, value);
+        maxPriceFilter = value;
+        currentPage = 1;
+        renderProducts();
+    });
+
+    // Функция фильтрации продуктов
+    function getFilteredProducts() {
+        return products.filter(product => {
+            // Проверка соответствия цены
+            const priceMatch = (minPriceFilter === undefined || product.price >= minPriceFilter) &&
+                              (maxPriceFilter === undefined || product.price <= maxPriceFilter);
+            
+            // Возвращаем результат всех фильтров
+            return categoryMatch && searchMatch && priceMatch && stockMatch;
+        });
+    }
+
+    // Функция рендеринга продуктов (должна быть определена в вашем коде)
+    function renderProducts() {
+        const filteredProducts = getFilteredProducts();
+        // Здесь должна быть логика отображения отфильтрованных продуктов
+        console.log('Отфильтровано продуктов:', filteredProducts.length);
+    }
+</script>
+</body>
+</html>
